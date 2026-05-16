@@ -1,0 +1,735 @@
+*{box-sizing: border-box;}
+body{
+    background-color: antiquewhite;
+}
+.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    margin-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+}
+.nav li a:hover{
+    color: white;
+    background-color: maroon;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+img{
+    width: 600px;
+    height: auto;
+}
+.main-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 300px;
+}
+.im{
+    width: 30%;
+}
+.status{
+    width: 70%;
+    padding: 15px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 300px;
+}
+.photo{
+    width: 30%;
+}
+.stat{
+    width: 70%;
+    padding: 15px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 300px;
+}
+.pic{
+    width: 30%;
+}
+.statuses{
+    width: 70%;
+    padding: 15px;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: brown;
+}
+@media screen and (max-width:480px){
+    body{margin: 0;
+        padding: 10px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    nav li{
+        margin: 10px 0;
+    }
+    .container
+    .main-content
+    .teams{
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    h1,h2,h3{
+        font-size: 24px;
+        text-align: center;
+
+    }
+    p{font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .main-info, .main-content, .information{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .im, .photo, .pic{
+        width: 100%;
+        max-width: 100%;
+    }
+    .status, .stat, .statuses{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
